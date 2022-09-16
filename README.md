@@ -1,1 +1,1 @@
-#Announcement and Registration Platform
+# Announcement and Registration Platform
