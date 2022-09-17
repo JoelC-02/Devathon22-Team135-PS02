@@ -14,7 +14,12 @@ class Model {
   }
 
   async selectWhere(columns, clause) {
-    let query = `SELECT ${columns} FROM ${this.table} WHERE Email='${clause}'`;
+    let query = `SELECT ${columns} FROM ${this.table} WHERE Date='${clause}'`;
+    return this.pool.query(query);
+  }
+
+  async selectLimit(columns, limit) {
+    let query = `SELECT ${columns} FROM ${this.table} WHERE Date <= DATEADD(day,${limit}, GETDATE())' AND Date >= GETDATE()`;
     return this.pool.query(query);
   }
 

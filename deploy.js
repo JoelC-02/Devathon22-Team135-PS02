@@ -37,6 +37,15 @@ app.get("/events",async(req,res)=>{
     }
 })
 
+app.get("/eventcarousel",async(req,res)=>{
+    try {
+        const data = await clubeventModel.selectLimit('Name,Event,Details,Regdate', 7);
+        res.send(data.rows);
+    } catch(err) {
+        res.send("No upcoming club events");
+    }
+})
+
 app.post("/signup",async(req,res)=>{
     // console.log(req.body);
     const cdata = req.body;
