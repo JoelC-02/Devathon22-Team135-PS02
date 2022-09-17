@@ -18,6 +18,11 @@ class Model {
     return this.pool.query(query);
   }
 
+  async selectWherePass(columns, clause, clause2) {
+    let query = `SELECT id FROM ${this.table} WHERE Email='${clause}' AND Password='${clause2}'`;
+    return this.pool.query(query);
+  }
+
   async insertWithReturn(columns, values) {
     const query = `
           INSERT INTO ${this.table}(${columns})

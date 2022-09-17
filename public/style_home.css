@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+#title{
+    margin-bottom: 2%;
+    padding : 2% 10%;
+    padding-bottom: 1%;
+}
+.club-container{
+    margin: 5% 0%;
+}
+i{
+    padding-top: 20%;
+}
+.club-contact{
+    padding: 0%;
+    margin : 5% 1%;
+}
+.csea-club-img{
+    padding-top: 25%;
+    padding-bottom: 10%;
+    width: 70%;
+}
+.ecea-club-img{
+    width:80%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+.dnd-club-img{
+    width:60%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+.club-desc{
+    padding-top: 4%;
+}
+h1{
+    margin-bottom: 2%;
+    color: black;
+}
+.main{
+    padding: 0% 10%;
+    padding-right: 5%;
+}
+#ecea-css{
+    padding : 0% 5%
+}
+.ecea-img{
+    padding-left: 5%;
+}
+.data{
+    padding: 5% 1%;
+}
+.non-center{
+    text-align: left;
+}
+.copy{
+    padding: 3% 2%;
+}
+.carousel-inner{
+    padding:4% 15%;
+}
