@@ -5,7 +5,8 @@
   "main": "deploy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "startdev": "nodemon deploy.js"
+    "startdev": "nodemon deploy.js",
+    "startapp": "node deploy.js"
   },
   "author": "Abhiroop",
   "license": "ISC",
