@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 12%;
+}
+.button{
+    color: white;
+    padding-bottom: 3%;
+    margin: 3% 1%;
+    width : 170px
+}
+i{
+    padding-top: 20%;
+}
+.heading{
+    padding-bottom: 3%;
+}
+h1{
+    margin-bottom: 2%;
+    color: black;
+
+}
+.main{
+    padding: 0% 10%;
+    padding-right: 5%;
+}
+.data{
+    padding: 5% 1%;
+}
+.non-center{
+    text-align: left;
+}
+.copy{
+    padding: 8% 2%;
+}

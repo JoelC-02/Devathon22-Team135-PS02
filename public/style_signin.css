@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 2rem;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    border-radius: 0px;
+    border: 2.2px grey solid;
+    padding-left: 1%;
+    margin-right: 0%;
+}
+#pass{
+    margin-top: -2px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#mail{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.button{
+    color: white;
+    width: 150px;
+    padding-bottom: 0.8%;
+    margin-top: 1.7%;
+}
+.container-fluid{
+    padding-left:38%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+.middle{
+    padding-top: 13%;
+    padding-bottom: 2%;
+}
+i{
+    margin-bottom: 2%;
+}
+.signup_redirect{
+    margin-top: 4.5%;
+}
